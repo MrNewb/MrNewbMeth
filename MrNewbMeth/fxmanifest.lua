@@ -4,12 +4,10 @@ games { 'gta5' }
 
 name 'MrNewbMeth'
 author 'MrNewb#6475'
-description 'The completed version of MrNewbMeth - fucking finally'
-version '1.0.1'
+description 'WIP MrNewbMeth, converting to qb-core not in a live state do not use'
 
-shared_scripts {
-    '@es_extended/imports.lua'
-}
+
+
 
 server_scripts {
     "server/*.lua"
@@ -20,8 +18,8 @@ client_scripts {
 }
 
 dependencies {
-    'es_extended',
-    'esx_ambulancejob',
-    'mythic_progbar'
+    --'es_extended',
+    --'esx_ambulancejob',
+    --'mythic_progbar'
 }
 

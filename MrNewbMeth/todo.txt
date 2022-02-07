@@ -1,0 +1,10 @@
+-- add prop spawns into an array/index to account for proper deletion on change as well as spawning at specific headdings.
+-- change the mythic prog bar to the qb renamed version
+-- add skillbar to cooking meth
+-- add various diffrent grades of meth ie high quality/medium ie see hotdogjob
+-- learn if qb supports meta to inventory item and if so how to read from it on a sale/transform
+-- add better animation
+-- convert get location system to work with qb phone
+-- stick dick in toaster
+-- figure out how qb does death checks
+-- finish the qb-target shit
