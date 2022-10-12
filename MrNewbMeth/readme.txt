@@ -13,6 +13,17 @@ https://www.youtube.com/watch?v=gdStxkDCyAg
 
 https://www.youtube.com/watch?v=W7v9o6stHIg
 
+
+
+
+
+
+--- Big thanks to SloppyShovel for helping me troubleshoot my serverside item checks and better practice methods.
+
+
+
+
+
 go to 
 
 qb-core\server\ and open player.lua
