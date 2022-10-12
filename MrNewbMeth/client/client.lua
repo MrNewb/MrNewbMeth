@@ -344,35 +344,5 @@ function Request_Particle_To_Load_Dict_Now2()
 	UseParticleFxAssetNextCall('cut_portoflsheist')
 end
 
---- lazy place to put prop stuck in
-RegisterCommand('propstuck', function()
-    for k, v in pairs(GetGamePool('CObject')) do
-        if IsEntityAttachedToEntity(PlayerPedId(), v) then
-            SetEntityAsMissionEntity(v, true, true)
-            DeleteObject(v)
-            DeleteEntity(v)
-        end
-    end
-end)
-
-Citizen.CreateThread(function ()
-    while true do
-            if IsPedInAnyVehicle(PlayerPedId(), false) then
-            TriggerEvent("propstuck")
-        end
-        Wait(100)
-    end
-end)
-
--- end of lazy place to put prop stuck in
-
-Citizen.CreateThread(function ()
-    while true do
-		if exports['qs-housing']:inDecorate() then
-			SetPauseMenuActive(false)
-		end
-	Wait(1000)
-	end
-end)
 
 SetTimeout(2000, MrNewbMeth_location_distance_checker)
