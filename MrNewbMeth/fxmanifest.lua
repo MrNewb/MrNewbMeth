@@ -4,12 +4,16 @@ games { 'gta5' }
 
 name 'MrNewbMeth'
 author 'MrNewb#6475'
-description 'WIP MrNewbMeth, converting to qb-core not in a live state do not use'
+description 'Qb-Core MrNewbMeth <3'
+version '3.0.0'
 
-
-
+shared_scripts {
+    '@qb-core/shared/locale.lua',
+	'@ox_lib/init.lua',
+}
 
 server_scripts {
+    "@oxmysql/lib/MySQL.lua",
     "server/*.lua"
 }
 
@@ -17,9 +21,4 @@ client_scripts {
     "client/*.lua"
 }
 
-dependencies {
-    --'es_extended',
-    --'esx_ambulancejob',
-    --'mythic_progbar'
-}
-
+lua54 'yes'
