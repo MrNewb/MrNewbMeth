@@ -6,7 +6,12 @@ ps-ui is used because its great and the project sloth community is great.
 there is a event I was playing with to get qs-phone working with the script similar to how it originally worked  with gc phone, but gonna be honest the support for qs stuff is awful so I dont think im gonna get a way to have the server recive the text without a command.
 any ideas are welcomed, any prs are appreciated
 
+heres some videos of it made in the last few weeks
+https://www.youtube.com/watch?v=MT3At_eEmYY
 
+https://www.youtube.com/watch?v=gdStxkDCyAg
+
+https://www.youtube.com/watch?v=W7v9o6stHIg
 
 go to 
 
